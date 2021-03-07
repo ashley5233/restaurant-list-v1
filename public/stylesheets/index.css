@@ -1,0 +1,135 @@
+/* Layouts */
+.title-image {
+  border: 2px red;
+  width: 100%;
+  height: 360px;
+  background: center center url('https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  /* filter: blur(1px); */
+  /* filter: opacity(70%); */
+}
+.nav-title{
+  font-size: 30px;
+  font-family: 'Cedarville Cursive', cursive;
+  font-weight: 700;
+  color: #EA6464;
+  text-decoration:none;
+}
+.nav-title:hover{
+  color: #EA6464;
+}
+.search-bar {
+  position: relative;
+  margin: auto;
+  width: 35%;
+  max-height: 250px;
+  margin-top: -260px;
+  right: 30%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(192,195,192,0.6);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.search-title {
+  color: white;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+}
+.fa-search {
+  color: white;
+}
+/* index */
+.card {
+  margin: auto;
+  margin-top: 8%;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px;
+}
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  border-radius: 15px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.card-text {
+  color: #5D5D5D;
+}
+.card-rate {
+  display: inline-block;
+  box-sizing:border-box;
+  border-radius: 20px;
+  padding: 8px;
+  background-color: #EA6464;
+  color: white;
+  font-size: 10px;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.1);
+}
+
+/* show */
+
+.restaurant-show-title {
+  text-align: center;
+}
+
+.show-info {
+  text-align: center;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  color: white;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+}
+.footer-image{
+  text-align: center;
+}
+@media screen and (max-width: 992px) {
+  
+  .card img{
+    height: 115px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+.search-bar {
+  position: static;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: rgba(192,195,192,0.6);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.search-title {
+  font-size: 25px;
+}
+
+}
+
+@media screen and (max-width: 575px) {
+  
+  .card img{
+    height: auto;
+  }
+  
+}
+

@@ -1,0 +1,47 @@
+{{!-- search bar --}}
+<div class="search-bar">
+  <div class="row m-5" id="search-bar">
+    <div class="col-12">
+      <form action="/search">
+        <div class="input-group mb-3">
+          <h4 class="search-title"> Enter restaurant name :</h4>
+          <div class="input-group">
+            <input type="text" name="keyword" class="form-control" placeholder="Enter restaurant name to search..."
+              aria-label="Resyaurant Name..." aria-describedby="search-button">
+            <div class="input-group-append">
+              <button class="btn btn-info" type="submit" id="search-button"><i class="fas fa-search"></i></button>
+            </div>
+
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+{{!-- restaurant list --}}
+<div class="container mt-5">
+  <div class="row">
+    {{#each restaurants}}
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="inner">
+          <a href="/restaurants/{{this.id}}">
+            <img src=" {{ this.image }} " class="card-img-top" alt="{{this.name}}">
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-text"> {{this.name}} </h5>
+          <p class="card-text fas fa-utensils"> {{this.category}}
+          </p>
+          <div>
+            <p class="card-rate"> {{this.rating}}
+              <i class="fas fa-star"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
