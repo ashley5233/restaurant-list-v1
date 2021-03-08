@@ -2,7 +2,7 @@
 使用 Node.js + Express 打造的餐廳美食網站，在此專案能夠利用搜尋功能來尋找餐廳。
 並且點擊餐廳圖片能獲得餐廳的詳細資訊。
 
-![restaurant-image](https://github.com/ashley5233/restaurant-list-v1/blob/master/restaurant-image.png?raw=true){ width: 200px; }
+![restaurant-image](https://github.com/ashley5233/restaurant-list-v1/blob/master/restaurant-image.png?raw=true)
 
 
 ## 功能列表
