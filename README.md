@@ -13,7 +13,11 @@
 + 將專案clone到本地端
 `https://github.com/ashley5233/restaurant-list-v1.git`
 + 進入到專案資料夾後，安裝packages
++ 安裝npm
+`$npm install`
 + 透過nodemon 啟動專案
++ 終端機出現
+`express is running on http://localhost:3000`
 
 ## 開發環境
 + Node.js
