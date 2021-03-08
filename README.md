@@ -11,15 +11,28 @@
 
 ## 啟動方式
 + 將專案clone到本地端
-`https://github.com/ashley5233/restaurant-list-v1.git`
-+ 進入到專案資料夾後，安裝packages
+```
+https://github.com/ashley5233/restaurant-list-v1.git
+```
++ 進入到專案資料夾
+```
+cd restaurant-list-v1
+```
 + 安裝npm
-`$npm install`
+```
+$npm install
+```
 + 透過nodemon 啟動專案
-+ 終端機出現
-`express is running on http://localhost:3000`
+```
+$nodemon app.js
+```
++ 當終端機出現以下畫面，表示成功連接。
+```
+express is running on http://localhost:3000
+```
 
 ## 開發環境
-+ Node.js
-+ Express
-+ Express-Handlebars
++ Node.js -v10.15.0
++ Express -4.17.1
++ Express-Handlebars-5.2.1
+
